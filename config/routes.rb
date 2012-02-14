@@ -1,4 +1,8 @@
 Demo::Application.routes.draw do
+  resources :microposts
+
+  resources :members
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
